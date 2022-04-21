@@ -2,3 +2,22 @@ body {
   background-color: #212529;
   color: white;
 }
+
+.border-profile-pic {
+  border-radius: 1rem;
+}
+
+.icon-holder {
+  color: hsla(215, 25%, 50%, 0.9);
+  transition: color 400ms;
+  transition-property: color;
+  transition-duration: 400ms;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.icon {
+  fill: currentColor;
+  height: 3em;
+  width: auto;
+}
