@@ -11,7 +11,14 @@
   </head>
   <body>
     <div class='bg-milkyway'>
-      <img class="bg-fixed-image" alt="" src="./images/milky-way.jpg">
+      <img
+      class="bg-fixed-image"
+      alt=""
+      srcset="./images/milky-way-mobile.jpg 1029w,
+              ./images/milky-way.jpg 3141w"
+      sizes="(max-width: 600px) 1029px,
+              3141px"
+      src="./images/milky-way.jpg">
     </div>
     <section class="intro">
       <div class="container d-flex">
