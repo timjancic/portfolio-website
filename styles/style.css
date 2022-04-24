@@ -27,12 +27,42 @@ img.bg-fixed-image {
   display: block;
 }
 
+.intro {
+  margin-top: 15em;
+}
+
+@media (min-width: 1200px) {
+  .intro-header {
+    width: 60%;
+  }
+}
+
 .text-intro {
-  color: hsla(215, 25%, 50%, 0.9);
+  color: hsla(215, 25%, 50%, 1);
+  font-weight: 600;
+}
+
+.intro-summary {
+  padding-top: 13em;
+}
+
+@media (min-width: 1200px) {
+  .intro-summary {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+}
+
+h2.summary {
+  font-weight: 600;
+}
+
+p.summary {
+  font-size: 1.3em;
 }
 
 .icon-holder {
-  color: hsla(215, 25%, 50%, 0.9);
+  color: hsla(215, 25%, 50%, 1);
   transition: color 400ms;
   transition-property: color;
   transition-duration: 400ms;
