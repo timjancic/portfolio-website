@@ -27,11 +27,25 @@ img.bg-fixed-image {
   display: block;
 }
 
+@media (max-width: 1000px) {
+  img.bg-fixed-image {
+    max-height: 1554px;
+    min-height: 1554px;
+  }
+}
+
 .intro {
-  margin-top: 15em;
+  margin-top: 4em;
+}
+
+@media (min-width: 1000px) {
+  .intro {
+    margin-top: 15em;
+  }
 }
 
 @media (min-width: 1200px) {
+
   .intro-header {
     width: 60%;
   }
