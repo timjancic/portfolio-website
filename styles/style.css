@@ -102,6 +102,11 @@ p.summary {
   transform: translateY(-100%);
 }
 
+.skills-transition-bottom {
+  fill: #eeeeee;
+  transform: scale(1,-1) translateY(-100%);
+}
+
 .skills {
   background-color: #eeeeee;
   color: black;
