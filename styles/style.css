@@ -107,6 +107,11 @@ p.summary {
   color: black;
 }
 
+.skill-card {
+  width: 10rem;
+  border-radius: 1rem;
+}
+
 h1.skills-text {
   font-weight: 600;
 }
@@ -127,6 +132,7 @@ p.skills-text {
 }
 
 img.skill-logo {
-  width: 50%;
-  height: auto;
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
 }
