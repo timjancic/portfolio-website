@@ -125,3 +125,8 @@ h1.skills-text::before {
 p.skills-text {
   font-size: 1.3em;
 }
+
+img.skill-logo {
+  width: 50%;
+  height: auto;
+}
