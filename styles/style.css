@@ -99,7 +99,7 @@ p.summary {
 
 .skills-transition-top {
   fill: #eeeeee;
-  transform: translateY(-100%);
+  transform: translateY(-99%);
 }
 
 .skills-transition-bottom {
