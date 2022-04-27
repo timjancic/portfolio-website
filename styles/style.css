@@ -104,7 +104,18 @@ p.summary {
 
 .skills-transition-bottom {
   fill: #eeeeee;
-  transform: scale(1,-1) translateY(-100%);
+  transform: scale(1,-1) translateY(-99%);
+}
+
+@media (max-width: 1000px) {
+  .skills-transition-top {
+    transform: translateY(-97%);
+  }
+
+  .skills-transition-bottom {
+    fill: #eeeeee;
+    transform: scale(1,-1) translateY(-97%);
+  }
 }
 
 .skills {
@@ -115,6 +126,10 @@ p.summary {
 .skill-card {
   width: 10rem;
   border-radius: 1rem;
+}
+
+.card-title {
+  font-size: 1.5em;
 }
 
 h1.skills-text {
@@ -140,4 +155,52 @@ img.skill-logo {
   width: 5rem;
   height: 5rem;
   object-fit: contain;
+}
+
+@media (max-width: 576px) {
+  .skill-card {
+    width: 8rem;
+  }
+
+  img.skill-logo {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 476px) {
+  .skill-card {
+    width: 6rem;
+  }
+
+  img.skill-logo {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .card-title {
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 376px) {
+  .skill-card {
+    width: 4rem;
+  }
+
+  img.skill-logo {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .card-title {
+    font-size: 0.7rem;
+    margin-bottom: 0px;
+  }
 }
