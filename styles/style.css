@@ -191,16 +191,16 @@ img.skill-logo {
 
 @media (max-width: 376px) {
   .skill-card {
-    width: 4rem;
+    width: 5rem;
   }
 
   img.skill-logo {
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .card-title {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     margin-bottom: 0px;
   }
 }
