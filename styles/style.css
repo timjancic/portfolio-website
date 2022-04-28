@@ -205,3 +205,20 @@ img.skill-logo {
     margin-bottom: 0px;
   }
 }
+
+div.project-card-wrapper {
+  background: hsla(257, 45%, 41%, 1);
+  background: linear-gradient( to right, hsl(293, 42%, 42%), hsla(257, 45%, 41%, 1) );
+  border-radius: 1em;
+  padding: 2px;
+}
+
+div.project-card {
+  background-color: #1C1C1C;
+  border-radius: 1em;
+}
+
+img.project-card {
+  height: 200px;
+  object-fit: cover;
+}
