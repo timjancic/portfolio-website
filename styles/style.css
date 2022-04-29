@@ -55,6 +55,8 @@ img.bg-fixed-image {
 
 .text-intro {
   color: hsla(215, 25%, 50%, 1);
+  font-size: 1.1em;
+  line-height: 1em;
 }
 
 .intro-summary {
