@@ -249,6 +249,7 @@ img.project-card {
 @media (min-width: 1000px) {
   .experience-info {
     padding-left: 2em;
+    padding-right: 2em;
   }
 }
 
