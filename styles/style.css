@@ -246,6 +246,12 @@ img.project-card {
   color: black;
 }
 
+@media (min-width: 1000px) {
+  .experience-info {
+    padding-left: 2em;
+  }
+}
+
 .education-logo {
   width: 5rem;
   height: 5rem;
