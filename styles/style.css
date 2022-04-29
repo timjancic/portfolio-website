@@ -206,6 +206,12 @@ img.skill-logo {
   }
 }
 
+.projects {
+  background-color: #212529;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+}
+
 div.project-card-wrapper {
   background: hsla(257, 45%, 41%, 1);
   background: linear-gradient( to right, hsl(293, 42%, 42%), hsla(257, 45%, 41%, 1) );
@@ -221,4 +227,29 @@ div.project-card {
 img.project-card {
   height: 200px;
   object-fit: cover;
+}
+
+.experience-transition-top {
+  fill: #eeeeee;
+  transform: scale(-1,1) translateY(-99%);
+}
+
+.experience-transition-bottom {
+  fill: #eeeeee;
+  transform: scale(-1,-1) translateY(-99%);
+}
+
+.experience {
+  background: #eeeeee;
+  color: black;
+}
+
+.education-logo {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+}
+
+footer {
+  padding-top: 8vw;
 }
