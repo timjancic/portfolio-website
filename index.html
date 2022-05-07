@@ -284,9 +284,48 @@
             </div>
           </div>
           <br>
-          <a href="" class="btn btn-primary" target="_blank">Show More Projects</a>
-        </div>
+          <button class="btn btn-primary" id="more-projects-b">Show More Projects</button>
+          <div class="visually-hidden" id="more-projects-container">
+            <div class="row g-4 row-cols-sm-1 row-cols-md-2">
+              <div class="col-sm">
+                <div class="project-card-wrapper">
+                  <div class="card project-card">
+                    <h5 class="card-header">Astrometry from CCD Images</h5>
+                    <img class="card-img-top project-card" src="https://github.com/timjancic/physics-164-labs/blob/main/Lab3%20figures%20and%20tables/f1.jpg?raw=true" alt="Astrometry image">
+                    <div class="card-body">
+                      <p class="card-text">
+                        Used Python to calculate the positions and velocity of the Asteroids Metis and Polyhymnia in relation to
+                        Earth. To do this we also had to compare the images received with cataloged star coordinates to
+                        account for the aberrations/distortions in the observatory telescope in our estimates of the asteroid
+                        locations.
+                      </p>
+                      <a href="https://github.com/timjancic/physics-164-labs" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="project-card-wrapper">
+                  <div class="card project-card">
+                    <h5 class="card-header">Atmospheric River Prediction</h5>
+                    <img class="card-img-top project-card" src="./images/climate-research-image.jpg" alt="Climate Research image">
+                    <div class="card-body">
+                      <p class="card-text">
+                        A key component of estimating rainfall from atmospheric river events is the measurement of upslope flux
+                        of water vapor. Two primary methods exist to calculate upslope flux, either by satellite or weather balloon
+                        data. I used MATLAB and Python to compare those two methods to find out which is more accurate.
+                      </p>
+                      <a href="https://github.com/timjancic/climate-research-upslope-flux-methods" class="btn btn-primary" target="_blank">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <button class="btn btn-secondary" id="less-projects-b">Show Less Projects</button>
+          </div>
 
+        </div>
       </section>
       <section class="experience">
         <svg class="experience-transition-top" viewBox="0 0 1024 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
