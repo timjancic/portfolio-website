@@ -14,6 +14,12 @@ moreLessProjectsButton.addEventListener('click', () => {
   } else {
     moreProjectsContainer.classList.remove("extra-show");
 
+    //for mobile devices, change the scroll position so user does not lose place.
+    if (window.innerWidth < 768) {
+      document.getElementById('afterLessProjects').scrollIntoView();
+    }
+
+
     let finishAnimate = setTimeout(function() {
       moreLessProjectsButton.textContent = "Show More Projects";
       moreLessProjectsButton.classList.add("btn-primary");
