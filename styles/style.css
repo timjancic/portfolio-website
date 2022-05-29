@@ -262,3 +262,22 @@ img.project-card {
 footer {
   padding-top: 8vw;
 }
+
+div.extra-hidden  {
+  overflow: hidden;
+  max-height: 0px;
+}
+
+div.extra-show {
+  max-height: 550px;
+}
+
+@media (max-width: 767px) {
+  div.extra-show {
+    max-height: 1000px;
+  }
+}
+
+div {
+    transition: max-height 1s ease;
+}
